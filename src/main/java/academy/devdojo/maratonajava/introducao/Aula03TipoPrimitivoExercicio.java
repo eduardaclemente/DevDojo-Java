@@ -12,14 +12,14 @@ public class Aula03TipoPrimitivoExercicio {
     public static void main(String[] args) {
 
         String nome = "Eduarda Clemente";
-        String endereco = "Itaquaquecetuba, rua Araras";
-        float salario = 1.500F;
+        String endereco = "Itaquaquecetuba, rua Araras ";
+        float salario = 1500.00F;
         String data = "19/07/2023";
 
 
-        System.out.println("Eu " +nome+ ", moando no endereço " +endereco+
-                "confirmo que recebi o salário de " +salario+ ", na data " + data);
+        String relatorio = ("Eu " +nome+ ", moando no endereço " +endereco+
+                "confirmo que recebi o salário de " +salario+ ", na data " + data + ".");
 
-
+        System.out.println(relatorio);
     }
 }
