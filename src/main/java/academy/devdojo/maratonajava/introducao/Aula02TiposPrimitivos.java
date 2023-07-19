@@ -12,6 +12,8 @@ public class Aula02TiposPrimitivos {
         boolean verdadeiro = true;
         boolean falso = false;
         char caractere = '\u0041';
+        String nome = "Goku";
+        var nome2 = "Vegeta"; // inserido a partir da versão 10
 
 
         System.out.println("A idade é:  " + age);
@@ -23,6 +25,9 @@ public class Aula02TiposPrimitivos {
         System.out.println(verdadeiro);
         System.out.println(falso);
         System.out.println(caractere);
+        System.out.println("Oi, meu nome é " +nome);
+        System.out.println("Oi, meu nome é " +nome2);
+
 
 
         //casting é forçar a entrada do valor
