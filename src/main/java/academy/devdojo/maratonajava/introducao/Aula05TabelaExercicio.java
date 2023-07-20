@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class Aula06TabelaExercicio {
+public class Aula05TabelaExercicio {
         public static void main(String[] args) {
             double salario = 50000; // Valor do salário que você deseja verificar
 
