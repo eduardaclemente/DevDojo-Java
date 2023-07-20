@@ -7,12 +7,16 @@ public class Aula05EstruturasCondicionais02 {
         // idade >=18 categoria adulto
 
         int idade = 18;
+        String categoria;
+
         if (idade < 15){
-            System.out.println("Categoria Infantil!");
+            categoria = "Categoria Infantil!";
         } else if (idade >=15 && idade < 18) {
-            System.out.println("Categoria Juvenil!");
+            categoria = "Categoria Juvenil!";
         } else { // else if (idade >=18)
-            System.out.println("Categoria Adulto!");
+            categoria = "Categoria Adulto";
         }
+
+        System.out.println(categoria);
     }
 }
