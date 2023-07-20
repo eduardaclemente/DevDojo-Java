@@ -16,6 +16,7 @@ public class Aula05TabelaExercicio {
 
             double taxaPagar = salario * taxaAnual;
             System.out.println("O valor a ser pago de taxa anual é: " + taxaPagar);
+            System.out.println(salario);
         }
 }
 
