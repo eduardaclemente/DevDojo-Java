@@ -3,7 +3,6 @@ package academy.devdojo.maratonajava.introducao;
 public class Aula05TabelaExercicio {
         public static void main(String[] args) {
             double salario = 50000; // Valor do salário que você deseja verificar
-
             double taxaAnual;
 
             if (salario <= 0 || salario < 34712) {
