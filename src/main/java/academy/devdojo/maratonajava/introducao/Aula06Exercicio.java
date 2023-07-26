@@ -8,5 +8,9 @@ public class Aula06Exercicio {
             System.out.println(count);
             count +=2;
         }
+
+        for (int numero = 0; numero <= 100000; numero += 2) {
+            System.out.println(numero);
+        }
     }
 }
