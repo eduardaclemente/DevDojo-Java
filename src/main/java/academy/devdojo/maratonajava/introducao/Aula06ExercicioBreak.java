@@ -5,11 +5,10 @@ public class Aula06ExercicioBreak {
         double valorTotal = 30000;
         for (int parcela = 1; parcela <= valorTotal; parcela++) {
             double valorParcela = valorTotal / parcela;
-            if (valorParcela >= 1000){
-                System.out.println("Parcela " + parcela + " R$ " +valorParcela);
-            } else {
-                break;
+            if (valorParcela < 1000){
+               break;
             }
+            System.out.println("Parcela " + parcela + " R$ " +valorParcela);
             // System.out.println("Fora do if, mas dentro do for" +parcela);
         }
     }
